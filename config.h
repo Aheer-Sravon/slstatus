@@ -67,6 +67,6 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {
     /* function format          argument */
     {run_command, "%s |", "~/dotfiles/bash_scripts/scripts/volume_status"},
-    {ram_free, "%s | ", NULL},
-    {datetime, " %s", "%I:%M %p, %A, %e %b %Y"},
+    {ram_free, " %s | ", NULL},
+    {datetime, "%s", "%I:%M %p, %A, %e %b %Y"},
 };
